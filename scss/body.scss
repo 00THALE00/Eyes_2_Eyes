@@ -1,10 +1,56 @@
-.first_picture {
+body {
     height: 325px;
     width: 325px;
+}
+
+
+.first_picture {
+    height: 100%;
+    width: 100%;
 }
 
 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
+.texte_strong {
+    position: relative;
+    margin-left: 5px;
+    padding-left: 25px;
+    font-size: x-large;
+    top: -7px;
+}
+
+.name_of_legende {
+    position: relative;
+    font-size: xx-small;
+    margin: 25px;
+    top: -15px;
+    left: 4px;
+}
+
+.icon_set {
+    position: relative;
+    height: 30px;
+    width: 187px;
+    left: 55px;
+    top: 30px;
+}
+
+
+.new_caledonia {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    top: 45px;
+    left: 48px;
+}
+
+
+.name_of_exposition {
+    position: relative;
+    top: 30px;
+}
